@@ -49,7 +49,7 @@ This will execute the test suite and display the results in the console.
 ## Dependencies
 
 ### Database
-![ER Diagram](img/postgres - public.png "ER Diagram")
+![ER Diagram](/img/postgres - public.png "ER Diagram")
 
 The project uses PostgreSQL as its database. It provides a robust and scalable solution for storing and retrieving data.
 
