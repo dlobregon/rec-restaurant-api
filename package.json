@@ -2,10 +2,10 @@
   "name": "rec-restaurant-api",
   "version": "1.0.0",
   "description": "Basic API for restaurant table reservation",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "test": "jest --detectOpenHandles --forceExit",
+    "dev": "nodemon src/index.js"
   },
   "author": "Diego Lopez",
   "license": "ISC",
@@ -13,5 +13,9 @@
     "express": "^4.19.2",
     "nodemon": "^3.1.4",
     "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
